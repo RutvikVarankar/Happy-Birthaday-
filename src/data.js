@@ -58,18 +58,15 @@ export const photosScreenEndText = "There's more I want to show you..."
 // ==========================
 // 5. Final Screen (Proposal Message)
 // ==========================
-export const proposalMessage = `From the moment you came into my life, everything started to change.  
-You brought colors to my ordinary days, warmth to my silence, and a happiness I didn't even know I was missing.  
+export const proposalMessage = `From the time you came into my life, things have been better in a simple way. You have added good moments, random laughs, and a lot of memories that I genuinely value. It is not always about big things; even the small conversations, the usual hangouts, and the everyday moments have been meaningful because you are part of them.
 
-Every sunrise feels brighter because of you.  
-Every dream feels possible because you inspire me.  
-Every challenge feels easier because I imagine you by my side.  
+There is a comfort in knowing there is someone you can just be normal with, without any pressure or expectations. You have always been someone I can rely on, talk to, or just spend time with, and that matters more than it is usually said. A lot of our random talks and simple moments have turned into memories that actually last.
 
-You are not just my friend, you're the most special part of my life.  
-You make me smile, you make my heart race, and you make me want to be a better version of myself.  
+On your birthday, I just want to wish you a solid year ahead. Hope you achieve what you are aiming for, handle whatever comes your way, and enjoy the process too. Keep doing your thing, stay the same person, and do not lose that mindset you have.
 
-I don't know what the future holds, but I know one thing for sure.
-I want that future with you.`
+Thanks for being a good friend and for all the time we have shared. Looking forward to more memories, more laughs, and more normal days that somehow turn into good ones. No matter where things go, I hope we stay in touch and keep things the same way, simple and real. 
+
+Happy Birthday 🎉`
 // Main proposal text (you can edit freely)
 
 
