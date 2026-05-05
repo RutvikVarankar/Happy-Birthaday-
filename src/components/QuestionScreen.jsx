@@ -16,8 +16,8 @@ export default function QuestionScreen({ question, onYes, isFirst }) {
                 imageUrl: "/gif/please.gif",
                 imageAlt: "Please gif",
                 imageWidth: 150,
-                background: "linear-gradient(135deg, #1d071b, #3a1638)",
-                color: "#FFEDFF",
+                background: "linear-gradient(135deg, #87CEEB 0%, #B0E0E6 50%, #AFEEEE 100%)",
+                color: "#1e3a8a",
                 timer: 3000,
                 showConfirmButton: false,
             })
@@ -29,8 +29,8 @@ export default function QuestionScreen({ question, onYes, isFirst }) {
                 imageUrl: "/gif/tears.gif",
                 imageAlt: "Please gif",
                 imageWidth: 130,
-                background: "linear-gradient(135deg, #1d071b, #3a1638)",
-                color: "#FFEDFF",
+                background: "linear-gradient(135deg, #87CEEB 0%, #B0E0E6 50%, #AFEEEE 100%)",
+                color: "#1e3a8a",
                 timer: 3000,
                 showConfirmButton: false,
             })

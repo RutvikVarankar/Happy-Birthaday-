@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Something Just for You!",
-  description: "A little surprise made just for you, open it with a smile ❤️",
+  title: "Something special for you... ",
+  description: "Happy Birthday! 🎂 A birthday surprise made just for you",
 };
 
 export default function RootLayout({ children }) {

@@ -11,7 +11,7 @@ import FinalScreen from "@/components/FinalScreen"
 import CuteLoader from "@/components/CuteLoader"
 import FloatingHearts from "@/components/FloatingHearts"
 import Music from "@/components/Music"
-import { questionOne, questionTwo } from "@/data"
+import { questionOne } from "@/data"
 
 export default function ProposalSite() {
   const [currentScreen, setCurrentScreen] = useState("loader")
@@ -35,22 +35,22 @@ export default function ProposalSite() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-fuchsia-950/30 via-black/70 to-rose-950/40 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-sky-200/80 via-blue-100/70 to-sky-300/60 relative overflow-hidden">
 
       {/* Dots background */}
-      <div className="fixed inset-0 bg-[radial-gradient(white_1px,transparent_1px)] bg-[size:40px_40px] opacity-10" />
+      <div className="fixed inset-0 bg-[radial-gradient(circle,rgba(135,206,250,0.3)_1px,transparent_1px)] bg-[size:40px_40px] opacity-70" />
 
       {/* Radial gradients for background */}
       <div className="fixed inset-0 z-0 blur-[120px] opacity-20" style={{
-        backgroundImage: "radial-gradient(circle at 20% 25%, rgba(75, 0, 79, 0.6), transparent 40%)",
+        backgroundImage: "radial-gradient(circle at 20% 25%, rgba(135, 206, 250, 0.4), transparent 40%)",
       }} />
 
       <div className="fixed inset-0 z-0 blur-[120px] opacity-20" style={{
-        backgroundImage: "radial-gradient(circle at 80% 80%, rgba(77, 2, 24, 0.6), transparent 40%)",
+        backgroundImage: "radial-gradient(circle at 80% 80%, rgba(100, 149, 237, 0.4), transparent 40%)",
       }} />
 
       <div className="fixed inset-0 z-0 blur-[140px] opacity-10" style={{
-        backgroundImage: "radial-gradient(circle at 50% 50%, rgba(80, 0, 92, 0.5), transparent 40%)",
+        backgroundImage: "radial-gradient(circle at 50% 50%, rgba(173, 216, 230, 0.3), transparent 40%)",
       }} />
 
       {!isLoading && <RainEffect />}
@@ -68,17 +68,8 @@ export default function ProposalSite() {
           <QuestionScreen
             key="question1"
             question={questionOne}
-            onYes={() => nextScreen("question2")}
-            isFirst={true}
-          />
-        )}
-
-        {currentScreen === "question2" && (
-          <QuestionScreen
-            key="question2"
-            question={questionTwo}
             onYes={() => nextScreen("balloons")}
-            isFirst={false}
+            isFirst={true}
           />
         )}
 
@@ -97,8 +88,8 @@ export default function ProposalSite() {
           duration: 1,
           delay: 1,
         }}
-        className="fixed bottom-4 right-4 text-[13px] text-white/40 pointer-events-none z-50 font-light">
-        @rutvikvarankar
+        className="fixed bottom-4 right-4 text-slate-700/60 pointer-events-none z-50 font-light">
+        @SahilDesai
       </motion.div>
     </div>
   )
