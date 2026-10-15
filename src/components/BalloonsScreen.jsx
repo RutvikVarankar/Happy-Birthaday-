@@ -9,7 +9,7 @@ export default function BalloonsScreen({ onNext }) {
   const cakes = [
     { text: "HAPPY", delay: 3 },
     { text: "BIRTHDAY", delay: 4.5 },
-    { text: "NIVEDITA", delay: 6 }
+    { text: "HETAL", delay: 6 }
   ]
 
   // 🎉 Confetti Component

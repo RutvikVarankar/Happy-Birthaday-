@@ -25,7 +25,7 @@ export const questionTwoSubtext = "Please say yes... 🥺"
 // ==========================
 // 3. Balloon Screen
 // ==========================
-export const balloonScreenHeading = "Happy Birthday Nivedita! 🎂"
+export const balloonScreenHeading = "Happy Birthday Hetal! 🎂"
 // Heading text - Change this text as you like
 
 export const balloonScreenSubtext = "Watch the cakes bring birthday wishes for you"
