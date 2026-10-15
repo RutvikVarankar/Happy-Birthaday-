@@ -89,7 +89,7 @@ export default function ProposalSite() {
           delay: 1,
         }}
         className="fixed bottom-4 right-4 text-slate-700/60 pointer-events-none z-50 font-light">
-        @SahilDesai
+        @RutvikVarankar
       </motion.div>
     </div>
   )
